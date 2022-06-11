@@ -41,7 +41,7 @@
             <ul>
               <li><a href="./index.html">Home</a></li>
               <li><a href="./Pages/info.html">Info</a></li>
-              <li><a href="./Pages/contactUs.html">Contact</a></li>
+              <li><a href="./Pages/contact.html">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -67,46 +67,42 @@
           <div class="col">
             <div class="card1">
               <img
-                src="./Images/hero__img.jpg"
+                src="./Images/A_class.jpeg"
                 alt="Avatar"
                 style="width: 100%"
               />
               <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+                <h4><b>A-class</b></h4>
               </div>
             </div>
             <div class="card1">
               <img
-                src="./Images/hero__img.jpg"
+                src="./Images/B_class.webp"
                 alt="Avatar"
                 style="width: 100%"
               />
               <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+                <h4><b>B-class</b></h4>
               </div>
             </div>
             <div class="card1">
               <img
-                src="./Images/hero__img.jpg"
+                src="./Images/S-class.jpg"
                 alt="Avatar"
                 style="width: 100%"
               />
               <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+                <h4><b>S-class</b></h4>
               </div>
             </div>
             <div class="card">
               <img
-                src="./Images/hero__img.jpg"
+                src="./Images/C-class.webp"
                 alt="Avatar"
                 style="width: 100%"
               />
               <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+                <h4><b>C-class</b></h4>
               </div>
             </div>
           </div>
@@ -127,59 +123,46 @@
         <div class="row justify-content-center">
           <div class="col">
             <div class="card1">
-              <img
-                src="./Images/hero__img.jpg"
-                alt="Avatar"
-                style="width: 100%"
-              />
+              <img src="./Images/CLA.jpg" alt="Avatar" style="width: 100%" />
               <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+                <h4><b>CLA</b></h4>
               </div>
             </div>
             <div class="card1">
-              <img
-                src="./Images/hero__img.jpg"
-                alt="Avatar"
-                style="width: 100%"
-              />
+              <img src="./Images/SL.webp" alt="Avatar" style="width: 100%" />
               <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+                <h4><b>SL</b></h4>
               </div>
             </div>
             <div class="card1">
-              <img
-                src="./Images/hero__img.jpg"
-                alt="Avatar"
-                style="width: 100%"
-              />
+              <img src="./Images/GLA.jpg" alt="Avatar" style="width: 100%" />
               <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+                <h4><b>GLA</b></h4>
               </div>
             </div>
             <div class="card">
-              <img
-                src="./Images/hero__img.jpg"
-                alt="Avatar"
-                style="width: 100%"
-              />
+              <img src="./Images/GLC.jpg" alt="Avatar" style="width: 100%" />
               <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+                <h4><b>GLC</b></h4>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!--  -->
+      <!-- Chart & Multimedia -->
 
       <div id="multi_Chart__Container" class="container">
         <div class="row justify-content-center">
           <div class="col-6">
-            <video id="multimedia" width="100%" height="100%" controls autoplay muted>
+            <video
+              id="multimedia"
+              width="100%"
+              height="100%"
+              controls
+              autoplay
+              muted
+            >
               <source src="./Multimedia/video2.mp4" type="video/mp4" />
               <source src="./Multimedia/video.mp4" type="video/mp4" />
             </video>
@@ -192,7 +175,7 @@
 
       <!-- Table -->
 
-      <div class="container">
+      <div id="table_form__Container" class="container">
         <div class="row justify-content-center">
           <div class="col-6">
             <table id="Table">
@@ -217,13 +200,20 @@
           <div class="col-6">
             <form id="form">
               <div class="row justify-content-center">
+                <div id="center1" class="col-12">
+                  <h3>Leave your comment:-</h3>
+                </div>
+              </div>
+              <br />
+              <div class="row justify-content-center">
                 <div id="center" class="col-4">
                   <label for="Name">Name:</label>
                 </div>
                 <div class="col-8">
                   <input type="text" id="Name" name="Name" />
                 </div>
-              </div><br />
+              </div>
+              <br />
               <div class="row justify-content-center">
                 <div id="center" class="col-4">
                   <label for="Comment">Your Comment</label>
@@ -231,9 +221,11 @@
                 <div class="col-8">
                   <input type="text" id="Comment" name="Comment" />
                 </div>
-              </div><br />
-              <div id="button_submit" ><input id="button_input" type="submit" value="submit" /></div>
-              
+              </div>
+              <br />
+              <div id="button_submit">
+                <input id="button_input" type="submit" value="submit" />
+              </div>
             </form>
           </div>
         </div>
@@ -246,32 +238,32 @@
           <div class="col-sm-6 col-md-3 item">
             <h3>Services</h3>
             <ul>
-              <li><a href="#">Web design</a></li>
-              <li><a href="#">Development</a></li>
-              <li><a href="#">Hosting</a></li>
+              <li><a href="#">maintenance</a></li>
+              <li><a href="#">branches</a></li>
+              <li><a href="#">places to sell</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-md-3 item">
             <h3>About</h3>
             <ul>
-              <li><a href="#">Company</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Careers</a></li>
+              <li><a href="./Pages/info.html">Info</a></li>
+              <li><a href="./Pages/contactUs.html">Contact</a></li>
+              <li><a href="#table_form__Container">Add a comment</a></li>
             </ul>
           </div>
           <div class="col-md-6 item text">
             <h3>Mercedes Info</h3>
             <p>
-              Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus
-              ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique
-              lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.
+              Mercedes-Benz AG, is a German automobile manufacturer
+              headquartered in Stuttgart, Baden-Württemberg. Mercedes-Benz
+              produces consumer luxury vehicles and commercial vehicles. Its
+              first Mercedes-Benz-badged vehicles were produced in 1926.
             </p>
           </div>
           <div class="col item social">
-            <a href="#"><i class="icon ion-social-facebook"></i></a
-            ><a href="#"><i class="icon ion-social-twitter"></i></a
-            ><a href="#"><i class="icon ion-social-snapchat"></i></a
-            ><a href="#"><i class="icon ion-social-instagram"></i></a>
+            <a href="https://web.facebook.com/MercedesBenz"><i class="icon ion-social-facebook"></i></a>
+            <a href="https://twitter.com/mercedesbenz"><i class="icon ion-social-twitter"></i></a>
+            <a href="https://www.instagram.com/mercedesbenz"><i class="icon ion-social-instagram"></i></a>
           </div>
         </div>
         <p class="copyright">Mercedes Info © 2022</p>
